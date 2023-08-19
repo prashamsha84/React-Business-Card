@@ -1,0 +1,113 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #23252C;
+}
+
+
+img{
+max-width: 100%;
+border-radius: 5px 5px 0 0  ;
+}
+
+.contanier{
+    width:90%;
+    max-width: 317px;
+    height: 780px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color:#1A1B21;
+    color: white;
+    /* padding:10px; */
+   
+}
+h5{
+    color: #F3BF99;
+}
+
+.intro{
+    text-align: center;
+    line-height: 0.1;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+button{
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 115px;
+}
+.btn2{
+    background-color: #5093E2;
+    color: white;
+   
+}
+/* footer{
+    background-color: yellow;
+} */
+
+main{
+    padding: 8px 30px;
+    line-height: 150%;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-align: left;
+    margin:20px 0;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main > h4, main> h5{
+    margin: 0;
+}
+
+footer{
+    padding: 5px 30px;
+    height: 64px;
+    background-color: #161619;
+    border-radius: 0 0 5px 5px  ;
+}
+
+.social--links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20%;
+}
+
+/* fontawesome */
+li{
+    color: #918E9B;
+    font-size: 20px;
+}
+
+.faE{
+    color: #1E1F26;
+    padding: 0 10px;
+}
+
+.faL{
+    padding: 0 10px;
+}
+
+
